@@ -1,0 +1,55 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* image */
+.header {
+  background-image: url('../img/carousel1.jpg') ;
+  background-repeat: no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.container-fluid {
+  height: 100%;
+  width: 250%;
+}
+
+.carousel-inner img {
+  height: 1000px;
+}
+
+.desc-section {
+  background-color: #000000;
+  padding: 2rem;
+}
+footer {
+  text-align: right;
+  background:#21acb6;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* icons */
+
+.card-columns {
+  column-count: 6;
+}
+.card {
+  min-height: 100px;
+}
